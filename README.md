@@ -1,7 +1,7 @@
 # Enterprise Security Homelab Project
 
 ## Overview
-This project focused on building a virtualized homelab simulating the core components of a corporate network. The goal was to  develop hands-on experience with enterprise infrastructure, identity management, endpoint administration, centralized monitoring, and defensive security operations. 
+This project focused on building a virtualized homelab simulating the core components of a corporate network. The goal was to  develop hands-on experience with enterprise infrastructure, identity management, endpoint administration, centralized monitoring, and defensive security operations. The environment also serves as a foundation for future security labs and exercises.
 
 ## Architecture
 
