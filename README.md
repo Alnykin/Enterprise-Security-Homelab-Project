@@ -25,10 +25,10 @@ The environment consists of six virtual machines, each fulfilling a specific rol
 Active Directory serves as the identity and access management backbone of the lab environment. It is used to manage user accounts, authenticate systems, enforce permissions, and simulate enterprise-style administration across domain-joined systems.
 
 ### Wazuh
-Wazuh acts as the lab’s primary host-based monitoring and detection platform. It is used to collect and analyze logs from systems in the network, detect security-relevant activity such as authentication events, and provide centralized visibility into endpoint and server behavior. In practice, it supports hands-on work with log analysis, alert review, vulnerability visibility, and defensive monitoring across the domain-based environment.
+Wazuh acts as the lab’s primary host-based monitoring and detection platform. It is used to collect and analyze logs from systems in the network, detect and generate alerts for security-relevant events, and provide centralized visibility into endpoint and server behavior. 
 
 ### Security Onion
 Security Onion is an open-source Linux distribution designed for threat hunting, enterprise security monitoring, and log management. In this lab, it complements Wazuh by providing network-level analysis and support for incident investigation. It also includes a suite of integrated security tools, such as Zeek, Suricata, the Elastic Stack, CyberChef, and a dedicated web interface.
 
 ### MailHog
-MailHog provides a safe internal mail testing capability within the lab environment. Rather than sending messages to real external inboxes, it captures application-generated email locally for review through a web interface. In this lab, it supports testing workflows involving notifications, account actions, and other email-dependent behavior without requiring an external mail service.
+MailHog provides a safe internal mail testing capability within the lab environment. Rather than sending messages to real external inboxes, it captures application-generated email locally for review through a web interface. It supports testing workflows involving notifications, account actions, and other email-dependent behavior without requiring an external mail service.
