@@ -7,7 +7,7 @@ This project involved building a virtualized homelab designed to simulate the co
 
 ![Alt text](https://github.com/Alnykin/Enterprise-Security-Homelab-Project/blob/main/Network%20Layout.png)
 
-The environment consists of six virtual machines, each fulfilling a specific role within the network. We have an Active Directory domain controller for centralized identity and authentication, an administrative jump box for controlled management access, a dedicated security server running Wazuh for SIEM monitoring and log analysis, and a MailHog server for internal email functionality and testing. The environment also includes separate Windows, Linux, and security-focused workstations to simulate user and analyst activity.
+The environment consists of six virtual machines, each fulfilling a specific role within the network. We have an Active Directory domain controller for centralized identity and authentication, an administrative jump box for controlled management access, a dedicated security server running Wazuh for SIEM monitoring and log analysis, and a MailHog server for internal email functionality and testing. The environment also includes a separate Windows, Linux, and security-focused workstation to simulate user and analyst activity.
 
 #### Network Layout: 10.0.0.0/24
 | System | IP Address | Operating System |
