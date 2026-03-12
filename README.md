@@ -19,7 +19,28 @@ The environment consists of six virtual machines, each fulfilling a specific rol
 | Windows Workstation | 10.0.0.100 | Windows 11 Enterprise |
 | Linux Workstation | 10.0.0.101 | Ubuntu Desktop |
 
-## Security Tools + Defense
+### Setup Details
+
+#### Domain Controller - [8d6-labs-dc] 
+Acts as the core infrastructure server, running Active Directory Domain Services, DNS, DHCP, File and Storage Services, and IIS to provide centralized authentication, networking, shared storage, and internal web hosting.
+
+#### Corporate Server - [8d6-labs-corp-svrt] 
+This is our jumpbox server. From here, we provision and access services such as FTP, DNS, and email. By limiting administrative access through a dedicated jumpbox, we reduce the network’s attack surface.
+
+#### Security Server - [8d6-labs-sec-box]
+Serves as a domain-connected security management host. Centralizes security tooling, logs, alerts, and vulnerability data for the environment. Separating it from the main server improves performance, protects data, and reflects realistic deployment practices.
+
+#### Security Workstation [8d6-labs-sec-work]
+This is our Security Onion system. It acts as the analyst-facing monitoring box for reviewing network activity and conudcting investigation.
+
+#### Windows Workstation - [8d6-labs-win-client] - Windows 11 Enterprise
+Emulates a Windows host.
+
+#### Linux Workstation - [8d6-labs-linux-client] - Ubuntu Desktop
+Emulates a Linux host.
+
+
+## Enterprise Tools + Defense
 
 ### Microsoft Active Directory
 Active Directory serves as the identity and access management backbone of the lab environment. It is used to manage user accounts, authenticate systems, enforce permissions, and simulate enterprise-style administration across domain-joined systems.
