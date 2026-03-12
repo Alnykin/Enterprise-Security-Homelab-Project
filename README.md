@@ -53,3 +53,24 @@ Security Onion is an open-source Linux distribution designed for threat hunting,
 
 ### MailHog
 MailHog provides a safe internal mail testing capability. Rather than sending messages to real external inboxes, it captures application-generated email locally for review through a web interface. It supports testing workflows involving notifications, account actions, and other email-dependent behavior without requiring an external mail service.
+
+---
+![Alt tezt](https://github.com/Alnykin/Enterprise-Security-Homelab-Project/blob/main/images/ADComputersEndState.png)
+
+*End State of Active Directory with Connected Computers*
+
+![Alt text](https://github.com/Alnykin/Enterprise-Security-Homelab-Project/blob/main/images/ADUsersEndState.png)
+
+*End State of Active Directory with Connected Users*
+
+![Alt text](https://github.com/Alnykin/Enterprise-Security-Homelab-Project/blob/main/images/VMEndState.png)
+
+*End State of VMs*
+
+# Full Write-up and Notes
+Download the full PDF write-up below, or view directly within GitHub from the file viewer at the top of this page.
+
+[![PDF](https://img.shields.io/badge/view_full_project_writeup-blue?style=for-the-badge)](https://github.com/user-attachments/files/25952371/Enterprise.Security.Homelab.Project.Write-up.pdf)
+
+
+
