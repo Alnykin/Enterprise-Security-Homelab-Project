@@ -33,10 +33,10 @@ Serves as a domain-connected security management host. Centralizes security tool
 #### Security Workstation [8d6-labs-sec-work]
 This is our Security Onion system. It acts as the analyst-facing monitoring box for reviewing network activity and conudcting investigation.
 
-#### Windows Workstation - [8d6-labs-win-client] - Windows 11 Enterprise
+#### Windows Workstation - [8d6-labs-win-client] 
 Emulates a Windows host.
 
-#### Linux Workstation - [8d6-labs-linux-client] - Ubuntu Desktop
+#### Linux Workstation - [8d6-labs-linux-client]
 Emulates a Linux host.
 
 
