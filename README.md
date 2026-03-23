@@ -70,7 +70,7 @@ MailHog provides a safe internal mail testing capability. Rather than sending me
 # Full Write-up and Notes
 Download the full PDF write-up below, or view directly within GitHub from the file viewer at the top of this page.
 
-[![PDF](https://img.shields.io/badge/view_full_project_writeup-blue?style=for-the-badge)](https://github.com/user-attachments/files/26188278/Enterprise.Security.Homelab.Project.Write-up.pdf)
+[![PDF](https://img.shields.io/badge/view_full_project_writeup-blue?style=for-the-badge)](https://github.com/user-attachments/files/26188711/Enterprise.Security.Homelab.Project.Write-up.pdf)
 
 
 
